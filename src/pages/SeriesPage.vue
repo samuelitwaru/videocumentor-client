@@ -2,8 +2,9 @@
 <template>
   <q-page>
     <!-- Page A content goes here -->
-    <div class="flex">
-      <h2 class="text-h5 q-ma-sm">Series</h2>
+    <div class="flex justify-between">
+      <h2 class="text-h6 q-ma-sm">Series</h2>
+      <create-serie-modal />
     </div>
 
     <q-list>

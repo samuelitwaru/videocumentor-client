@@ -2,7 +2,14 @@
   <q-layout view="lHh Lpr lFf">
     <q-header bordered class="bg-grey-3 text-primary">
       <q-toolbar>
-        <q-input v-model="text" type="text" outlined dense placeholder="Search Videos..." />
+        <q-input
+          v-model="text"
+          type="text"
+          style="width: 100%"
+          outlined
+          dense
+          placeholder="Search Videos..."
+        />
       </q-toolbar>
     </q-header>
     <q-page-container>

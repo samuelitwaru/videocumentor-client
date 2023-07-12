@@ -2,7 +2,7 @@
 <template>
   <q-page class="">
     <!-- Page A content goes here -->
-    <h2 class="text-h5 q-ma-sm">{{ serie?.title }} - Folders</h2>
+    <h2 class="text-h6 q-ma-sm">{{ serie?.title }} - Folders</h2>
     <q-list>
       <router-link
         :to="`/series/${serie.id}/folders/${folder.id}`"

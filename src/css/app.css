@@ -1,3 +1,7 @@
 a {
   text-decoration: none;
 }
+.q-field__control, .q-field__control-container {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
